@@ -1,6 +1,6 @@
-# 👋 Hi, I'm @Ilhamnofaldi
+# 👋 Hi, I'm Ilham Nofaldi
 
-![Profile Banner](https://via.placeholder.com/1500x500.png?text=Cloud+%26+Web+Developer+in+Training)
+![Profile Banner](https://media.licdn.com/dms/image/v2/D5616AQFEeIJDLf4WpA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727808978893?e=1736985600&v=beta&t=Uy95FN1sQ5oer-bbm6A1ag987AOcke1TnNaRDgZ_UfM)
 
 ## 👀 I'm interested in ...
 - ☁️ Cloud Computing and its applications
