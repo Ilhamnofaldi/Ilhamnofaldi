@@ -70,12 +70,15 @@ fun_fact: I can lift my own body weight, but still learning to scale databases �
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ilhamnofaldi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilhamnofaldi&layout=compact&langs_count=8&theme=tokyonight"/>
-</div>
-
+📈 GitHub Overview
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ilhamnofaldi&theme=tokyonight" alt="GitHub Streak Stats" />
+  <img height="200" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ilhamnofaldi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&custom_title=Ilham's%20GitHub%20Stats" />
+  <img height="200" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ilhamnofaldi&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&custom_title=Most%20Used%20Languages" />
+</div>
+🔥 Contribution Streak
+<div align="center">
+  <img src="https://streak-stats.demolab.com/?user=ilhamnofaldi&theme=tokyonight&hide_border=true&stroke=0000&background=1A1B27&ring=70A5FD&fire=70A5FD&currStreakLabel=70A5FD" />
+</div>
 </div>
 
 ---
@@ -84,9 +87,9 @@ fun_fact: I can lift my own body weight, but still learning to scale databases �
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ilhamnofaldi/ilhamnofaldi/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ilhamnofaldi/ilhamnofaldi/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ilhamnofaldi/ilhamnofaldi/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 
@@ -178,8 +181,10 @@ mindmap
 ## 📅 Coding Calendar
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ilhamnofaldi/ilhamnofaldi/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ilhamnofaldi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="Contribution Calendar" />
 </div>
+
+> **Alternative 3D Calendar:** For a 3D contribution calendar, you can use [GitHub Skyline](https://skyline.github.com/) or set up a custom 3D visualization.
 
 ---
 
@@ -194,8 +199,10 @@ mindmap
 ## 🎵 Spotify Now Playing
 
 <div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=1a1b27&border_color=ffffff" alt="Spotify Now Playing" />
+  <img src="https://spotify-github-profile.vercel.app/api/spotify" alt="Spotify Now Playing" />
 </div>
+
+> **Setup Required:** To display your currently playing Spotify track, you'll need to connect your Spotify account. Instructions below.
 
 ---
 
@@ -213,7 +220,3 @@ mindmap
 </div>
 
 ---
-
-<div align="center">
-  <sub>🤖 This README is updated automatically using GitHub Actions</sub>
-</div>
