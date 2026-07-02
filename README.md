@@ -59,33 +59,51 @@ My strongest proof so far is **TALAS**, a Bangkit Company Track capstone project
 ## Engineering Positioning
 
 ```mermaid
-mindmap
-  root((Ilham Nofaldi))
-    Backend Engineering
-      REST API
-      Authentication
-      RBAC
-      MVC Architecture
-      Error Handling
-      API Documentation
-    Cloud Computing
-      Google Cloud
-      App Engine
-      Cloud SQL
-      Cloud Scheduler
-      Docker
-      Service Orchestration
-    Data and Automation
-      Scheduled Crawling
-      SQL Modeling
-      ML Inference Integration
-      Workflow Automation
-      Operational Systems
-    Product Thinking
-      Root Cause Analysis
-      Internal Tools
-      Real User Problems
-      Maintainable Delivery
+flowchart TB
+    P(["Ilham Nofaldi<br/>Junior Software Engineer<br/>Backend and Cloud"])
+
+    subgraph B["Backend Engineering"]
+        B1["REST API"]
+        B2["Authentication"]
+        B3["RBAC"]
+        B4["MVC Architecture"]
+        B5["API Documentation"]
+    end
+
+    subgraph C["Cloud Computing"]
+        C1["Google Cloud"]
+        C2["App Engine"]
+        C3["Cloud SQL"]
+        C4["Cloud Scheduler"]
+        C5["Docker"]
+    end
+
+    subgraph D["Data and Automation"]
+        D1["Scheduled Crawling"]
+        D2["SQL Modeling"]
+        D3["ML Inference Integration"]
+        D4["Workflow Automation"]
+    end
+
+    subgraph T["Product Thinking"]
+        T1["Root Cause Analysis"]
+        T2["Internal Tools"]
+        T3["Real User Problems"]
+        T4["Maintainable Delivery"]
+    end
+
+    P --> B
+    P --> C
+    P --> D
+    P --> T
+
+    classDef core fill:#020617,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
+    classDef group fill:#0f172a,stroke:#38bdf8,color:#f8fafc,stroke-width:2px;
+    classDef item fill:#1e293b,stroke:#64748b,color:#f8fafc,stroke-width:1px;
+
+    class P core;
+    class B,C,D,T group;
+    class B1,B2,B3,B4,B5,C1,C2,C3,C4,C5,D1,D2,D3,D4,T1,T2,T3,T4 item;
 ```
 
 ---
@@ -102,13 +120,13 @@ flowchart LR
     F --> G["Automation and Observability"]
     G --> H["Usable Product"]
 
-    classDef start fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
-    classDef step fill:#111827,stroke:#64748b,color:#f8fafc,stroke-width:1.5px;
-    classDef end fill:#052e16,stroke:#22c55e,color:#dcfce7,stroke-width:2px;
+    classDef sourceNode fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
+    classDef processNode fill:#111827,stroke:#64748b,color:#f8fafc,stroke-width:1px;
+    classDef outcomeNode fill:#052e16,stroke:#22c55e,color:#dcfce7,stroke-width:2px;
 
-    class A start;
-    class B,C,D,E,F,G step;
-    class H end;
+    class A sourceNode;
+    class B,C,D,E,F,G processNode;
+    class H outcomeNode;
 ```
 
 > A system is not “done” when the feature works once. It is done when the flow can be used, traced, maintained, and improved.
@@ -177,23 +195,29 @@ TALAS collects news on a schedule, sends it through ML-based scoring for bias, h
 
 ```mermaid
 flowchart LR
-    subgraph EXT["External Layer"]
-        USER["Reader / User"]
-        NEWS["News Sources"]
-    end
+    USER["Reader / User"] --> FE["Frontend Web Client"]
 
-    subgraph GCP["Google Cloud Platform"]
-        FE["Frontend Web Client"]
+    subgraph BUILT["Built in TALAS Capstone"]
+        APP["App Engine<br/>Dockerized Service"]
         API["Backend API<br/>Node.js + Express"]
         AUTH["JWT Auth<br/>Role Access"]
         SCHED["Cloud Scheduler"]
         CRAWLER["Scheduled News Crawler"]
         ML["ML Inference<br/>Bias, Hoax, Ideology"]
         DB[("Cloud SQL")]
-        APP["App Engine<br/>Dockerized Service"]
     end
 
-    subgraph ROADMAP["Production Hardening Roadmap"]
+    NEWS["News Sources"] --> CRAWLER
+    SCHED --> CRAWLER
+    CRAWLER --> ML
+    ML --> API
+    APP --> API
+    API --> AUTH
+    API --> DB
+    ML --> DB
+    API --> FE
+
+    subgraph NEXT["Production Hardening Roadmap"]
         RUN["Cloud Run"]
         PUBSUB["Pub/Sub"]
         CICD["GitHub Actions CI/CD"]
@@ -201,33 +225,21 @@ flowchart LR
         SECRET["Secret Manager"]
     end
 
-    USER --> FE
-    FE --> API
-    APP --> API
-    API --> AUTH
-    API --> DB
-    SCHED --> CRAWLER
-    NEWS --> CRAWLER
-    CRAWLER --> ML
-    ML --> API
-    ML --> DB
-    API --> FE
-
     API -.-> RUN
     CRAWLER -.-> PUBSUB
     APP -.-> CICD
     API -.-> LOG
     API -.-> SECRET
 
-    classDef built fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
-    classDef data fill:#064e3b,stroke:#34d399,color:#dcfce7,stroke-width:2px;
-    classDef external fill:#1e293b,stroke:#94a3b8,color:#f8fafc,stroke-width:1.5px;
-    classDef roadmap fill:#2e1065,stroke:#c084fc,color:#f3e8ff,stroke-width:1.5px,stroke-dasharray: 6 4;
+    classDef externalNode fill:#1e293b,stroke:#94a3b8,color:#f8fafc,stroke-width:1px;
+    classDef builtNode fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
+    classDef dataNode fill:#064e3b,stroke:#34d399,color:#dcfce7,stroke-width:2px;
+    classDef roadmapNode fill:#2e1065,stroke:#c084fc,color:#f3e8ff,stroke-width:1px;
 
-    class USER,NEWS external;
-    class FE,API,AUTH,SCHED,CRAWLER,ML,APP built;
-    class DB data;
-    class RUN,PUBSUB,CICD,LOG,SECRET roadmap;
+    class USER,NEWS,FE externalNode;
+    class APP,API,AUTH,SCHED,CRAWLER,ML builtNode;
+    class DB dataNode;
+    class RUN,PUBSUB,CICD,LOG,SECRET roadmapNode;
 ```
 
 **What I contributed:**
@@ -332,19 +344,16 @@ flowchart TB
 ## Experience Highlights
 
 ```mermaid
-timeline
-    title Engineering and Leadership Journey
-    2022 : Started Information Systems at Universitas Andalas
-    2023 : Learned AWS Cloud fundamentals
-         : Learned SQL, MySQL, and basic data science
-    2024 : Built Portal Remedial FTI Unand
-         : Joined Bangkit Academy Cloud Computing Track
-         : Built TALAS as Backend and Cloud Architect
-    2025 : Backend Project Intern at BMKG PPSDM STMKG
-         : Teaching Assistant for Cloud Computing
-         : Mentor for Front-End Path at Metro Institute
-         : Built KSE Alumni Database
-         : Vice Chairperson of KSE Universitas Andalas
+flowchart LR
+    Y2022["2022<br/>Started Information Systems<br/>Universitas Andalas"] --> Y2023["2023<br/>AWS Cloud Fundamentals<br/>SQL and Data Science Basics"]
+    Y2023 --> Y2024["2024<br/>Portal Remedial<br/>Bangkit Cloud Track<br/>TALAS Backend and Cloud"]
+    Y2024 --> Y2025["2025<br/>BMKG Backend Intern<br/>Cloud Computing TA<br/>KSE Vice Chairperson"]
+
+    classDef yearNode fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
+    classDef activeNode fill:#052e16,stroke:#22c55e,color:#dcfce7,stroke-width:2px;
+
+    class Y2022,Y2023,Y2024 yearNode;
+    class Y2025 activeNode;
 ```
 
 ### Cloud Computing Teaching Assistant
@@ -368,24 +377,36 @@ Help lead a 67-member scholarship community, focusing on internal operations, bo
 ## Current Growth Plan
 
 ```mermaid
-gantt
-    title Backend and Cloud Improvement Roadmap
-    dateFormat  YYYY-MM-DD
-    axisFormat  %d %b
+flowchart TB
+    START(["60-Day Backend and Cloud Roadmap"])
 
-    section Backend Quality
-    TypeScript backend refactor         :a1, 2026-07-01, 14d
-    Validation and error handling       :a2, after a1, 7d
-    Jest and Supertest coverage         :a3, after a2, 7d
+    subgraph P1["Phase 1: Backend Quality"]
+        A1["TypeScript Backend Refactor"]
+        A2["Validation and Error Handling"]
+        A3["Jest and Supertest Coverage"]
+    end
 
-    section Cloud Readiness
-    Dockerized deployment               :b1, 2026-07-22, 7d
-    Cloud Run or App Engine deployment  :b2, after b1, 7d
-    Cloud SQL and secret management     :b3, after b2, 7d
+    subgraph P2["Phase 2: Cloud Readiness"]
+        B1["Dockerized Deployment"]
+        B2["Cloud Run or App Engine"]
+        B3["Cloud SQL and Secret Management"]
+    end
 
-    section Portfolio Proof
-    README and project case study       :c1, 2026-08-12, 7d
-    GitHub Actions CI/CD                :c2, after c1, 7d
+    subgraph P3["Phase 3: Portfolio Proof"]
+        C1["Project Case Study"]
+        C2["GitHub Actions CI/CD"]
+        C3["README and Architecture Docs"]
+    end
+
+    START --> A1 --> A2 --> A3 --> B1 --> B2 --> B3 --> C1 --> C2 --> C3
+
+    classDef core fill:#020617,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
+    classDef task fill:#0f172a,stroke:#64748b,color:#f8fafc,stroke-width:1px;
+    classDef finalTask fill:#052e16,stroke:#22c55e,color:#dcfce7,stroke-width:2px;
+
+    class START core;
+    class A1,A2,A3,B1,B2,B3,C1,C2 task;
+    class C3 finalTask;
 ```
 
 ---
