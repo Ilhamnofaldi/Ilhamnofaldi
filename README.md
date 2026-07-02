@@ -1,10 +1,23 @@
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="28px" /> Hi, I'm Ilham Nofaldi
+# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="28" alt="wave" /> Hi, I'm Ilham Nofaldi
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=850&lines=Backend+%26+Cloud+Engineer;Building+REST+APIs%2C+Cloud+Systems%2C+and+Data+Pipelines;Focused+on+Node.js%2C+Google+Cloud%2C+Docker%2C+and+Automation;Turning+Process+Problems+into+Backend+Systems" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=900&lines=Junior+Software+Engineer+%E2%80%94+Backend+%26+Cloud;Building+REST+APIs%2C+Cloud+Systems%2C+and+Data+Pipelines;Node.js+%7C+Express+%7C+Google+Cloud+%7C+Docker;Turning+Process+Problems+into+Working+Systems" alt="Typing SVG" />
 
-<br/>
+<br />
+
+<a href="https://ilhamnofaldi.voids.codes/">
+  <img src="https://img.shields.io/badge/Portfolio-ilhamnofaldi.voids.codes-0f172a?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+</a>
+<a href="https://www.linkedin.com/in/ilhamnofaldi">
+  <img src="https://img.shields.io/badge/LinkedIn-Ilham%20Nofaldi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:ilhamnofaldi@gmail.com">
+  <img src="https://img.shields.io/badge/Email-ilhamnofaldi%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+<br />
+<br />
 
 <img src="https://komarev.com/ghpvc/?username=Ilhamnofaldi&label=Profile%20views&color=0ea5e9&style=flat" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/Ilhamnofaldi?label=Followers&style=social" alt="GitHub followers" />
@@ -16,12 +29,12 @@
 
 ## About Me
 
-<img align="right" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding GIF" />
+<img align="right" width="350" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif" alt="Coding animation" />
 
 ```yaml
 name: Ilham Nofaldi
-role: Backend & Cloud Engineer
-location: Indonesia
+role: Junior Software Engineer — Backend & Cloud
+location: Jakarta x Padang, Indonesia
 education: Information Systems, Universitas Andalas
 focus:
   - Backend Engineering
@@ -29,26 +42,25 @@ focus:
   - REST API Development
   - Data Pipeline Automation
   - Process-to-System Design
-current_goal: Backend / Software Engineer Internship or Entry-Level Role
+open_to:
+  - Backend Engineer Internship
+  - Junior Backend Engineer
+  - Software Engineer Backend
+  - Cloud Engineer Internship
+  - Small freelance backend/cloud projects
 ```
 
-I'm a final-year Information Systems student focused on building **backend systems, cloud-deployed applications, and scheduled data pipelines**.
+I build backend systems by first understanding the real process problem, then designing the **API, database model, access control, automation, and cloud deployment** around it.
 
-My strongest area is translating real operational problems into technical systems: designing APIs, modeling databases, implementing access control, automating workflows, and deploying services to the cloud.
-
-- Backend & API: **Node.js, Express, REST API, JWT, RBAC, MVC**
-- Cloud & Deployment: **Google Cloud, Docker, Cloud SQL, Cloud Scheduler**
-- Database: **MySQL, PostgreSQL, Sequelize, data modeling**
-- Product direction: **AI/data products, internal tools, automation, and cloud-backed systems**
-- Highlight: Built **TALAS**, a news-bias analysis platform selected as **Best Team – Bangkit Company Track Capstone**
+My strongest proof so far is **TALAS**, a Bangkit Company Track capstone project selected as **Best Team**, where I worked as a cloud architect and backend engineer using **Node.js, Express, Docker, Google App Engine, Cloud SQL, and Cloud Scheduler**.
 
 ---
 
-## My Engineering Sweet Spot
+## Engineering Positioning
 
 ```mermaid
 mindmap
-  root((Backend & Cloud))
+  root((Ilham Nofaldi))
     Backend Engineering
       REST API
       Authentication
@@ -58,43 +70,48 @@ mindmap
       API Documentation
     Cloud Computing
       Google Cloud
-      Docker
+      App Engine
       Cloud SQL
       Cloud Scheduler
-      Deployment
+      Docker
       Service Orchestration
-    Data & Automation
-      Scheduled Pipeline
-      News Ingestion
+    Data and Automation
+      Scheduled Crawling
+      SQL Modeling
       ML Inference Integration
-      Process Automation
-      Operational Workflow
+      Workflow Automation
+      Operational Systems
     Product Thinking
       Root Cause Analysis
       Internal Tools
       Real User Problems
-      Maintainable Systems
+      Maintainable Delivery
 ```
 
 ---
 
-## How I Think When Building Systems
+## How I Build Systems
 
 ```mermaid
 flowchart LR
-    A[Process Problem] --> B[Requirement & Flow Analysis]
-    B --> C[Data Model Design]
-    C --> D[REST API Design]
-    D --> E[Auth & Role Access]
-    E --> F[Cloud Deployment]
-    F --> G[Automation & Monitoring]
-    G --> H[Usable Product]
+    A["Real Process Problem"] --> B["Requirement and Flow Analysis"]
+    B --> C["Data Model Design"]
+    C --> D["REST API Contract"]
+    D --> E["Auth and Role Access"]
+    E --> F["Cloud Deployment"]
+    F --> G["Automation and Observability"]
+    G --> H["Usable Product"]
 
-    style A fill:#0f172a,stroke:#38bdf8,color:#ffffff
-    style H fill:#0f172a,stroke:#22c55e,color:#ffffff
+    classDef start fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
+    classDef step fill:#111827,stroke:#64748b,color:#f8fafc,stroke-width:1.5px;
+    classDef end fill:#052e16,stroke:#22c55e,color:#dcfce7,stroke-width:2px;
+
+    class A start;
+    class B,C,D,E,F,G step;
+    class H end;
 ```
 
-> I prefer to understand the process problem first, then design the API, database, automation, and cloud deployment around it.
+> A system is not “done” when the feature works once. It is done when the flow can be used, traced, maintained, and improved.
 
 ---
 
@@ -102,156 +119,213 @@ flowchart LR
 
 <div align="center">
 
-### Backend & API
+### Backend and API
 
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
-<img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge" />
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
-<img src="https://img.shields.io/badge/RBAC-475569?style=for-the-badge" />
-<img src="https://img.shields.io/badge/MVC-1E293B?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+<img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge" alt="REST API" />
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+<img src="https://img.shields.io/badge/RBAC-475569?style=for-the-badge" alt="RBAC" />
+<img src="https://img.shields.io/badge/MVC-1E293B?style=for-the-badge" alt="MVC" />
 
 ### Languages
 
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge" alt="SQL" />
 
-### Cloud & DevOps
+### Cloud and DevOps
 
-<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloud_SQL-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Cloud_Scheduler-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/App_Engine-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+<img src="https://img.shields.io/badge/App_Engine-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="App Engine" />
+<img src="https://img.shields.io/badge/Cloud_SQL-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Cloud SQL" />
+<img src="https://img.shields.io/badge/Cloud_Scheduler-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Cloud Scheduler" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 
-### Database & Frontend
+### Database and Frontend
 
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-<img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white" alt="Sequelize" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+<img src="https://img.shields.io/badge/EJS-B4CA65?style=for-the-badge" alt="EJS" />
 
 </div>
 
 ---
 
-## Featured Projects
+## Featured Work
 
 ### TALAS — News Bias Analysis Platform
 
-```mermaid
-flowchart TD
-    A[News Sources] --> B[Scheduled News Crawling]
-    B --> C[Backend API]
-    C --> D[ML Inference Integration]
-    D --> E[Bias / Hoax / Ideology Scoring]
-    E --> F[Two-Sided News Summary]
-    C --> G[(Cloud SQL)]
-    H[Cloud Scheduler] --> B
-    I[Google Cloud App Engine] --> C
+<div align="center">
 
-    style A fill:#1e293b,stroke:#38bdf8,color:#ffffff
-    style C fill:#0f172a,stroke:#38bdf8,color:#ffffff
-    style D fill:#312e81,stroke:#a78bfa,color:#ffffff
-    style G fill:#064e3b,stroke:#34d399,color:#ffffff
-    style I fill:#1d4ed8,stroke:#93c5fd,color:#ffffff
-```
+<a href="https://github.com/GitAJov/TALAS">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=GitAJov&repo=TALAS&theme=tokyonight&hide_border=true" alt="TALAS repository card" />
+</a>
 
-**Tech:** Node.js, Express, Google Cloud, Docker, Cloud SQL, Cloud Scheduler, Machine Learning Integration
+</div>
 
-TALAS is a news-bias analysis platform that collects news on a schedule, sends it through ML-based scoring for bias, hoax, and ideology detection, then presents the result with two-sided summaries.
+**Tech:** Node.js, Express, Google Cloud, App Engine, Cloud SQL, Cloud Scheduler, Docker, Machine Learning Integration  
+**Role:** Backend Engineer and Cloud Architect  
+**Recognition:** Best Team — Bangkit Company Track Capstone
 
-**My contribution:**
-
-- Designed Google Cloud architecture using App Engine, Cloud SQL, Docker, and Cloud Scheduler
-- Built 12+ REST API endpoints
-- Integrated backend responses with ML inference output
-- Automated scheduled news ingestion without manual intervention
-- Contributed as cloud architect and backend engineer
-- Team selected as **Best Team – Bangkit Company Track Capstone**
-
-Repository: `https://github.com/Ilhamnofaldi/REPLACE_WITH_TALAS_REPO_NAME`
-
----
-
-### Portal Remedial FTI Unand
+TALAS collects news on a schedule, sends it through ML-based scoring for bias, hoax, and ideology detection, then presents the result with two-sided summaries.
 
 ```mermaid
 flowchart LR
-    A[Student / Admin User] --> B[Express App]
-    B --> C[Auth & RBAC]
-    C --> D[Controller]
-    D --> E[Service / MVC Logic]
-    E --> F[Sequelize ORM]
-    F --> G[(MySQL Database)]
+    subgraph EXT["External Layer"]
+        USER["Reader / User"]
+        NEWS["News Sources"]
+    end
 
-    style A fill:#1e293b,stroke:#38bdf8,color:#ffffff
-    style B fill:#0f172a,stroke:#38bdf8,color:#ffffff
-    style C fill:#7f1d1d,stroke:#fca5a5,color:#ffffff
-    style G fill:#064e3b,stroke:#34d399,color:#ffffff
+    subgraph GCP["Google Cloud Platform"]
+        FE["Frontend Web Client"]
+        API["Backend API<br/>Node.js + Express"]
+        AUTH["JWT Auth<br/>Role Access"]
+        SCHED["Cloud Scheduler"]
+        CRAWLER["Scheduled News Crawler"]
+        ML["ML Inference<br/>Bias, Hoax, Ideology"]
+        DB[("Cloud SQL")]
+        APP["App Engine<br/>Dockerized Service"]
+    end
+
+    subgraph ROADMAP["Production Hardening Roadmap"]
+        RUN["Cloud Run"]
+        PUBSUB["Pub/Sub"]
+        CICD["GitHub Actions CI/CD"]
+        LOG["Cloud Logging and Monitoring"]
+        SECRET["Secret Manager"]
+    end
+
+    USER --> FE
+    FE --> API
+    APP --> API
+    API --> AUTH
+    API --> DB
+    SCHED --> CRAWLER
+    NEWS --> CRAWLER
+    CRAWLER --> ML
+    ML --> API
+    ML --> DB
+    API --> FE
+
+    API -.-> RUN
+    CRAWLER -.-> PUBSUB
+    APP -.-> CICD
+    API -.-> LOG
+    API -.-> SECRET
+
+    classDef built fill:#0f172a,stroke:#38bdf8,color:#e0f2fe,stroke-width:2px;
+    classDef data fill:#064e3b,stroke:#34d399,color:#dcfce7,stroke-width:2px;
+    classDef external fill:#1e293b,stroke:#94a3b8,color:#f8fafc,stroke-width:1.5px;
+    classDef roadmap fill:#2e1065,stroke:#c084fc,color:#f3e8ff,stroke-width:1.5px,stroke-dasharray: 6 4;
+
+    class USER,NEWS external;
+    class FE,API,AUTH,SCHED,CRAWLER,ML,APP built;
+    class DB data;
+    class RUN,PUBSUB,CICD,LOG,SECRET roadmap;
 ```
 
-**Tech:** Node.js, Express, EJS, Sequelize, MySQL
+**What I contributed:**
 
-A full-stack remedial portal built independently with a complete MVC structure, database migrations, models, seeders, authentication, and role-based access control.
-
-**Highlights:**
-
-- Built solo with 80+ commits
-- Implemented authentication and role-based access
-- Designed relational database structure using Sequelize and MySQL
-- Organized the backend using MVC architecture
-
-Repository: `https://github.com/Ilhamnofaldi/REPLACE_WITH_PORTAL_REMEDIAL_REPO_NAME`
+- Designed the Google Cloud architecture with App Engine, Cloud SQL, Docker, and Cloud Scheduler.
+- Built 12+ REST API endpoints that orchestrate ML inference outputs.
+- Implemented JWT-based authentication and backend flow for the capstone system.
+- Automated scheduled news crawling so the dataset could refresh without manual intervention.
+- Helped the team connect product logic, backend responses, and ML-based news analysis.
 
 ---
 
-### KSE Alumni Database
+### Other Projects
 
-**Tech:** React, Express, MySQL
-
-An internal alumni records application for the Karya Salemba Empat scholarship community.
-
-**Highlights:**
-
-- Built for real internal organizational use
-- Supports structured alumni data management
-- Combines frontend interface, backend API, and relational database
-
-Repository: `https://github.com/Ilhamnofaldi/REPLACE_WITH_KSE_ALUMNI_REPO_NAME`
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Portal Remedial FTI Unand</h3>
+      <p><strong>Tech:</strong> Node.js, Express, EJS, Sequelize, MySQL</p>
+      <p>Solo full-stack project with MVC architecture, migrations, models, seeders, authentication, and role-based access.</p>
+      <p><strong>Highlight:</strong> built independently with 80+ commits.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>SIPENCUTI PPSDM MKG</h3>
+      <p><strong>Tech:</strong> Node.js, Express, EJS, MySQL</p>
+      <p>Backend prototype for a three-role leave-request system at BMKG PPSDM STMKG.</p>
+      <p><strong>Core idea:</strong> leave quota should be derived from request history, not tracked manually.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>KSE Alumni Database</h3>
+      <p><strong>Tech:</strong> React, Express, MySQL</p>
+      <p>Internal alumni data application used by the Karya Salemba Empat scholarship community.</p>
+      <p><strong>Context:</strong> built to support real organizational data management.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>FarmHub Analytics</h3>
+      <p><strong>Tech:</strong> React, TypeScript, UI/UX</p>
+      <p>Frontend contribution for a workspace concept combining feasibility, finance, and harvest planning.</p>
+      <p><strong>Role:</strong> frontend and interface implementation.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Dashboard IoT Billing</h3>
+      <p><strong>Tech:</strong> React, TypeScript, Tailwind CSS</p>
+      <p>Frontend admin console for an IoT billing dashboard.</p>
+      <p><strong>Scope:</strong> frontend interface; backend and BLE integration handled by teammates.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Portfolio Website</h3>
+      <p><strong>Tech:</strong> React, TypeScript, Framer Motion</p>
+      <p>Personal portfolio focused on honest technical branding, project storytelling, and recruiter-friendly presentation.</p>
+      <p><a href="https://ilhamnofaldi.voids.codes/">Visit portfolio</a></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Project Cards
+## Project Ecosystem
 
-> Replace the repository names below with your real repository names before publishing.
+```mermaid
+flowchart TB
+    CENTER["Backend and Cloud Portfolio"]
 
-<div align="center">
+    CENTER --> TALAS["TALAS<br/>News Analysis Platform"]
+    CENTER --> REMEDIAL["Portal Remedial<br/>Academic Internal Tool"]
+    CENTER --> CUTIL["SIPENCUTI<br/>Leave Request Backend"]
+    CENTER --> KSE["KSE Alumni Database<br/>Organization Data System"]
+    CENTER --> FARM["FarmHub Analytics<br/>Frontend Workspace"]
+    CENTER --> IOT["IoT Billing Dashboard<br/>Admin Console"]
 
-<a href="https://github.com/Ilhamnofaldi/REPLACE_WITH_TALAS_REPO_NAME">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ilhamnofaldi&repo=REPLACE_WITH_TALAS_REPO_NAME&theme=tokyonight&hide_border=true" />
-</a>
+    TALAS --> T1["GCP Architecture"]
+    TALAS --> T2["Scheduled Crawling"]
+    TALAS --> T3["ML Output Orchestration"]
 
-<a href="https://github.com/Ilhamnofaldi/REPLACE_WITH_PORTAL_REMEDIAL_REPO_NAME">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ilhamnofaldi&repo=REPLACE_WITH_PORTAL_REMEDIAL_REPO_NAME&theme=tokyonight&hide_border=true" />
-</a>
+    REMEDIAL --> R1["MVC Structure"]
+    REMEDIAL --> R2["Auth and RBAC"]
+    REMEDIAL --> R3["Sequelize Migration"]
 
-</div>
+    CUTIL --> C1["Three Role Workflow"]
+    CUTIL --> C2["Quota Logic"]
+    CUTIL --> C3["Backend Flow Analysis"]
 
-<br/>
+    KSE --> K1["Internal Data Management"]
+    KSE --> K2["React + Express + MySQL"]
 
-<div align="center">
+    FARM --> F1["React + TypeScript UI"]
+    IOT --> I1["Admin Dashboard UI"]
 
-<a href="https://github.com/Ilhamnofaldi/REPLACE_WITH_KSE_ALUMNI_REPO_NAME">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Ilhamnofaldi&repo=REPLACE_WITH_KSE_ALUMNI_REPO_NAME&theme=tokyonight&hide_border=true" />
-</a>
+    classDef center fill:#020617,stroke:#38bdf8,color:#e0f2fe,stroke-width:3px;
+    classDef project fill:#0f172a,stroke:#22c55e,color:#f0fdf4,stroke-width:2px;
+    classDef detail fill:#1e293b,stroke:#64748b,color:#f8fafc,stroke-width:1px;
 
-</div>
+    class CENTER center;
+    class TALAS,REMEDIAL,CUTIL,KSE,FARM,IOT project;
+    class T1,T2,T3,R1,R2,R3,C1,C2,C3,K1,K2,F1,I1 detail;
+```
 
 ---
 
@@ -259,14 +333,16 @@ Repository: `https://github.com/Ilhamnofaldi/REPLACE_WITH_KSE_ALUMNI_REPO_NAME`
 
 ```mermaid
 timeline
-    title Engineering & Learning Journey
+    title Engineering and Leadership Journey
+    2022 : Started Information Systems at Universitas Andalas
     2023 : Learned AWS Cloud fundamentals
-         : Started SQL, MySQL, and Data Science basics
+         : Learned SQL, MySQL, and basic data science
     2024 : Built Portal Remedial FTI Unand
          : Joined Bangkit Academy Cloud Computing Track
-         : Built TALAS as Backend & Cloud Architect
+         : Built TALAS as Backend and Cloud Architect
     2025 : Backend Project Intern at BMKG PPSDM STMKG
          : Teaching Assistant for Cloud Computing
+         : Mentor for Front-End Path at Metro Institute
          : Built KSE Alumni Database
          : Vice Chairperson of KSE Universitas Andalas
 ```
@@ -283,25 +359,33 @@ Built TALAS as cloud architect and backend engineer, combining REST APIs, Google
 
 Worked on the backend of a three-role leave-request application and modeled leave quota logic from recorded request history instead of relying on manual tracking.
 
+### Vice Chairperson — KSE Universitas Andalas
+
+Help lead a 67-member scholarship community, focusing on internal operations, board coordination, program execution, Quality Evaluation, and workflow automation.
+
 ---
 
-## Current 60-Day Growth Plan
+## Current Growth Plan
 
 ```mermaid
 gantt
-    title 60-Day Backend & Cloud Improvement Plan
+    title Backend and Cloud Improvement Roadmap
     dateFormat  YYYY-MM-DD
-    section Backend
-    TypeScript Backend Refactor       :a1, 2026-07-01, 14d
-    API Validation & Error Handling   :a2, after a1, 7d
-    Testing with Jest/Supertest       :a3, after a2, 7d
-    section Cloud
-    Dockerized Deployment             :b1, 2026-07-22, 7d
-    Google Cloud Run / App Engine     :b2, after b1, 7d
-    Cloud SQL & Secret Management     :b3, after b2, 7d
-    section Portfolio
-    README & Case Study               :c1, 2026-08-12, 7d
-    GitHub Actions CI/CD              :c2, after c1, 7d
+    axisFormat  %d %b
+
+    section Backend Quality
+    TypeScript backend refactor         :a1, 2026-07-01, 14d
+    Validation and error handling       :a2, after a1, 7d
+    Jest and Supertest coverage         :a3, after a2, 7d
+
+    section Cloud Readiness
+    Dockerized deployment               :b1, 2026-07-22, 7d
+    Cloud Run or App Engine deployment  :b2, after b1, 7d
+    Cloud SQL and secret management     :b3, after b2, 7d
+
+    section Portfolio Proof
+    README and project case study       :c1, 2026-08-12, 7d
+    GitHub Actions CI/CD                :c2, after c1, 7d
 ```
 
 ---
@@ -310,10 +394,7 @@ gantt
 
 <div align="center">
 
-### GitHub Overview
-
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=Ilhamnofaldi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&custom_title=Ilham's%20GitHub%20Stats" alt="GitHub Stats" />
-
 <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ilhamnofaldi&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&custom_title=Most%20Used%20Languages" alt="Top Languages" />
 
 </div>
@@ -352,8 +433,6 @@ gantt
 
 </div>
 
-> Note: The snake animation requires a separate GitHub Actions workflow to generate the SVG into the `output` branch.
-
 ---
 
 ## GitHub Trophies
@@ -366,38 +445,50 @@ gantt
 
 ---
 
-## What I'm Looking For
+## Credentials
 
-I'm open to internship or entry-level opportunities in:
+| Credential | Issuer | Year | Link |
+|---|---|---:|---|
+| Best Team — Bangkit Company Track Capstone | Bangkit Academy | 2025 | Portfolio certificate |
+| Belajar Dasar AWS Cloud | Dicoding Indonesia | 2023 | [Verify](https://www.dicoding.com/certificates/NVP7805Y4XR0) |
+| Dasar Structured Query Language | Dicoding Indonesia | 2023 | [Verify](https://www.dicoding.com/certificates/N9ZO5W2E6PG5) |
+| Pengenalan Database Menggunakan MySQL | CODEPOLITAN | 2023 | [Verify](https://codepolitan.com/c/4ORUF1Z) |
+| Belajar Dasar Data Science | Dicoding Indonesia | 2023 | [Verify](https://www.dicoding.com/certificates/L4PQQ6O52PO1) |
+| Belajar Dasar Pemrograman Web | Dicoding Indonesia | 2024 | [Verify](https://www.dicoding.com/certificates/KEXL8YDM0ZG2) |
+| Network Addressing and Basic Troubleshooting | Cisco | 2023 | [Verify](https://www.credly.com/badges/d4fe6d00-0f11-4551-a9ac-b46e0e50fbf9) |
 
-- Backend Engineer
+---
+
+## What I Am Looking For
+
+I am open to opportunities in:
+
+- Backend Engineer Internship
+- Junior Backend Engineer
 - Software Engineer Backend
-- Cloud Engineer Intern
-- Platform Engineer Intern
-- Backend Engineer for AI/Data Products
+- Cloud Engineer Internship
+- Platform Engineer Internship
+- Backend Engineer for AI or data products
 
 I am especially interested in roles where I can work on **APIs, database-backed systems, cloud deployment, automation, and product features that solve real operational problems**.
 
 ---
 
-## Connect with Me
+## Connect With Me
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/ilhamnofaldi/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+<a href="https://www.linkedin.com/in/ilhamnofaldi">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-
 <a href="mailto:ilhamnofaldi@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-
 <a href="https://github.com/Ilhamnofaldi">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
-
-<a href="https://ilhamnofaldi.voids.codes">
-  <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" />
+<a href="https://ilhamnofaldi.voids.codes/">
+  <img src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
 
 </div>
@@ -406,7 +497,7 @@ I am especially interested in roles where I can work on **APIs, database-backed 
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0284c7,100:38bdf8&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0284c7,100:38bdf8&height=120&section=footer" alt="Footer wave" />
 
 ### Let's build backend systems that solve real process problems.
 
