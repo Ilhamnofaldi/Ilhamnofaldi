@@ -1,222 +1,158 @@
-# <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" height="30px" /> Hi there, I'm Ilham Nofaldi!
+# Hi, I'm Ilham Nofaldi 👋
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Cloud+Computing+Enthusiast;Full-Stack+Web+Developer;DevOps+Engineer;Open+Source+Contributor" alt="Typing SVG" />
-</div>
+**Backend & Cloud Engineer** focused on building REST APIs, cloud-deployed applications, and scheduled data pipelines.
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ilhamnofaldi&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-  <img src="https://img.shields.io/github/followers/ilhamnofaldi?label=Followers&style=social" alt="GitHub followers" />
-</div>
+I'm a final-year Information Systems student at **Universitas Andalas**, currently preparing for Backend/Software Engineer internship or entry-level roles. My strongest area is turning real process problems into backend systems: APIs, databases, access control, automation, and cloud deployment.
 
 ---
 
-## 🚀 About Me
+## About Me
 
-<img align="right" alt="Coding GIF" width="400" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif">
-
-```yaml
-name: Ilham Nofaldi
-pronouns: He/Him
-location: Indonesia
-current_focus: Cloud Computing & Web Development
-learning: Bangkit Program - Cloud Computing Track
-fun_fact: I can lift my own body weight, but still learning to scale databases 🏋️‍♂️
-```
-
-- 🔭 I'm currently working on **Cloud-native applications**
-- 🌱 I'm currently learning **Cloud Computing fundamentals** through Bangkit
-- 👯 I'm looking to collaborate on **Open-source cloud projects**
-- 💬 Ask me about **Cloud Computing, Web Development, DevOps**
-- 📫 How to reach me: **ilhamnofaldi@gmail.com**
-- ⚡ Fun fact: **I once ran a marathon by accident! 🏃‍♂️**
+- 🎓 Final-year Information Systems student at **Universitas Andalas**
+- 💻 Focused on **Backend Engineering**, **Cloud Computing**, and **Data/API Pipelines**
+- ☁️ Experienced with **Node.js**, **Express**, **Google Cloud**, **Docker**, **Cloud SQL**, and **Cloud Scheduler**
+- 🧠 Interested in backend systems for **AI/data products**, process automation, and cloud-native applications
+- 🏆 Built **TALAS**, a news-bias analysis platform selected as **Best Team – Bangkit Company Track Capstone**
+- 👨‍🏫 Teaching Assistant for Cloud Computing, supporting 90+ students in deployment, cloud databases, and service orchestration
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Current Focus
 
-<div align="center">
+I'm currently improving my backend-cloud skill set through:
 
-### 💻 Programming Languages
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+- TypeScript backend architecture
+- REST API design and documentation
+- Authentication and role-based access control
+- Database modeling and query structure
+- Dockerized deployment
+- CI/CD with GitHub Actions
+- Google Cloud deployment and scheduled automation
+- Testing and production-readiness
+
+---
+
+## Tech Stack
+
+### Backend & API
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-02569B?style=flat)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![RBAC](https://img.shields.io/badge/RBAC-4B5563?style=flat)
+
+### Languages
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=flat)
+
+### Cloud & DevOps
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Cloud SQL](https://img.shields.io/badge/Cloud_SQL-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Cloud Scheduler](https://img.shields.io/badge/Cloud_Scheduler-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+
+### Databases & Frontend
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=flat&logo=sequelize&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Tailwind_CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwindcss&logoColor=white)
+
+---
+
+## Featured Projects
+
+### TALAS — News Bias Analysis Platform
+**Tech:** Node.js, Express, Google Cloud, Docker, Cloud SQL, Cloud Scheduler, Machine Learning Integration
+
+TALAS is a news-bias analysis platform that collects news on a schedule, sends it through ML-based scoring for bias, hoax, and ideology detection, then presents the result with two-sided summaries.
+
+My role focused on backend and cloud architecture:
+- Designed the Google Cloud architecture using App Engine, Cloud SQL, Docker, and Cloud Scheduler
+- Built 12+ REST API endpoints
+- Orchestrated ML inference results into backend responses
+- Automated scheduled news ingestion without manual intervention
+- Contributed as cloud architect and backend engineer in a Bangkit Company Track Capstone team selected as **Best Team**
+
+Repository: `Add TALAS repo link here`
+
+---
+
+### Portal Remedial FTI Unand
+**Tech:** Node.js, Express, EJS, Sequelize, MySQL
+
+A full-stack remedial portal built independently with a complete MVC structure, database migrations, models, seeders, authentication, and role-based access control.
+
+Highlights:
+- Built solo with 80+ commits
+- Implemented authentication and role-based access
+- Designed database structure using Sequelize and MySQL
+- Organized backend using MVC architecture
+
+Repository: `Add Portal Remedial repo link here`
+
+---
+
+### KSE Alumni Database
+**Tech:** React, Express, MySQL
+
+An internal alumni records application for the Karya Salemba Empat scholarship community.
+
+Highlights:
+- Built for real internal organizational use
+- Supports structured alumni data management
+- Combines frontend interface with backend API and relational database
+
+Repository: `Add KSE Alumni Database repo link here`
+
+---
+
+## Experience Highlights
+
+### Cloud Computing Teaching Assistant
+Supported 90+ students in Cloud Computing labs, covering deployment, cloud databases, and service orchestration. Helped students debug technical issues and turn cloud concepts into reproducible examples.
+
+### Backend Project Intern — BMKG PPSDM STMKG
+Worked on the backend of a three-role leave-request system involving employee, administration, and leadership roles. Focused on backend flow analysis, role-based access, and modeling leave quotas from request history instead of manual tracking.
+
+### Bangkit Academy — Cloud Computing Cohort
+Built TALAS as cloud architect and backend engineer, combining REST APIs, Google Cloud deployment, Docker, scheduled data ingestion, and ML inference integration.
+
+---
+
+## What I'm Looking For
+
+I'm open to internship or entry-level opportunities in:
+
+- Backend Engineer
+- Software Engineer Backend
+- Cloud Engineer Intern
+- Platform Engineer Intern
+- Backend Engineer for AI/Data Products
+
+I am especially interested in roles where I can work on APIs, database-backed systems, cloud deployment, automation, and product features that solve real operational problems.
+
+---
+
+## GitHub Stats
+
+<p align="left">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ilhamnofaldi&show_icons=true&theme=default&hide_border=true&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ilhamnofaldi&layout=compact&theme=default&hide_border=true&langs_count=6" />
 </p>
 
-### ☁️ Cloud & DevOps
-<p>
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
-</p>
+---
 
-### 🗄️ Databases & Tools
-<p>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-</p>
+## Connect
 
-</div>
+- Portfolio: `https://ilhamnofaldi.voids.codes`
+- LinkedIn: `https://www.linkedin.com/in/ilhamnofaldi/`
+- GitHub: `https://github.com/Ilhamnofaldi`
+- Email: `ilhamnofaldi@gmail.com`
 
 ---
 
-## 📊 GitHub Analytics
-
-<div align="center">
-📈 GitHub Overview
-<div align="center">
-  <img height="200" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ilhamnofaldi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&custom_title=Ilham's%20GitHub%20Stats" />
-  <img height="200" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ilhamnofaldi&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&custom_title=Most%20Used%20Languages" />
-</div>
-🔥 Contribution Streak
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=ilhamnofaldi&theme=tokyonight&hide_border=true&stroke=0000&background=1A1B27&ring=70A5FD&fire=70A5FD&currStreakLabel=70A5FD" />
-</div>
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ilhamnofaldi&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4&row=1" />
-</div>
-
----
-
-## 📈 Activity Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ilhamnofaldi&theme=tokyo-night&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdf8&area=true&hide_border=true" />
-</div>
-
----
-
-## 🎯 Current Focus Areas
-
-<div align="center">
-
-```mermaid
-mindmap
-  root((Ilham's Tech Journey))
-    Cloud Computing
-      AWS Fundamentals
-      Google Cloud Platform
-      Serverless Architecture
-      Microservices
-    Web Development
-      Frontend Technologies
-        React.js
-        Vue.js
-        Modern CSS
-      Backend Development
-        Node.js
-        Express.js
-        RESTful APIs
-    DevOps & Tools
-      Docker & Containerization
-      CI/CD Pipelines
-      Infrastructure as Code
-      Monitoring & Logging
-```
-
-</div>
-
----
-
-## 💼 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/ilhamnofaldi/cloud-project-1">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ilhamnofaldi&repo=cloud-project-1&theme=tokyonight" />
-</a>
-
-<a href="https://github.com/ilhamnofaldi/web-app-project">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ilhamnofaldi&repo=web-app-project&theme=tokyonight" />
-</a>
-
-</div>
-
----
-
-## 🤝 Connect with Me
-
-<div align="center">
-  <a href="https://twitter.com/ilhamnofaldi">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://www.linkedin.com/in/ilhamnofaldi/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:ilhamnofaldi@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="https://www.instagram.com/ilhamnofaldi/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-</div>
-
----
-
-## 📅 Coding Calendar
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ilhamnofaldi&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="Contribution Calendar" />
-</div>
-
-> **Alternative 3D Calendar:** For a 3D contribution calendar, you can use [GitHub Skyline](https://skyline.github.com/) or set up a custom 3D visualization.
-
----
-
-## 💭 Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
-</div>
-
----
-
-## 🎵 Spotify Now Playing
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify" alt="Spotify Now Playing" />
-</div>
-
-> **Setup Required:** To display your currently playing Spotify track, you'll need to connect your Spotify account. Instructions below.
-
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
-</div>
-
-<div align="center">
-  <h3>⭐ Thanks for visiting! Let's build something amazing together! ⭐</h3>
-  <p>
-    <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> 
-    <em>Happy Coding!</em> 
-    <img src="https://media.giphy.com/media/7j2hfyeVcDtf2/giphy.gif" width="60">
-  </p>
-</div>
-
----
+> I build backend systems by first understanding the process problem, then designing the API, data model, automation, and cloud deployment around it.
