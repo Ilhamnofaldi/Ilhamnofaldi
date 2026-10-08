@@ -177,6 +177,26 @@ flowchart LR
 
 ## Featured Work
 
+### NeoCentral — Academic Information System (SIMPTA module)
+
+**Tech:** Node.js, Express 5, Prisma, MySQL, Redis, BullMQ, React, TypeScript, Vite, Vitest, Docker  
+**Role:** Backend and full-stack engineer on a four-person team (about 45 backend and 29 frontend commits from me)  
+**Context:** Undergraduate thesis project for the Information Systems Department, Universitas Andalas.
+
+NeoCentral is an academic information system for the department. My part is the SIMPTA module, which covers thesis proposal workflows: advisor requests, TA-04 authorization gates, supervisor quotas, academic periods, and Metopel assessment.
+
+**What I contributed:**
+
+- Hardened TA-04 authorization gates and the Metopel scoring flows on the backend.
+- Implemented period-aware quota logic, including period closing and promotion on academic-year change.
+- Worked on Prisma schema migrations and fixed schema drift between local and staging.
+- Worked on the staging deployment through Docker Compose and fixed CI pipelines for backend tests and frontend lint.
+- Maintained Vitest unit and integration tests for the assessment, quota, and advisor-request logic.
+
+Happy to walk through the architecture and my decisions in an interview.
+
+---
+
 ### TALAS — News Bias Analysis Platform
 
 <div align="center">
@@ -263,16 +283,16 @@ flowchart LR
       <p><strong>Highlight:</strong> built independently with 80+ commits.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>SIPENCUTI PPSDM MKG</h3>
-      <p><strong>Tech:</strong> Node.js, Express, EJS, MySQL</p>
-      <p>Backend prototype for a three-role leave-request system at BMKG PPSDM STMKG.</p>
-      <p><strong>Core idea:</strong> leave quota should be derived from request history, not tracked manually.</p>
+      <h3>SIPENCUTI PPSDM BMKG</h3>
+      <p><strong>Tech:</strong> Node.js, Express, EJS, Sequelize, MySQL, node-cron, PDFKit</p>
+      <p>Team project: a three-role leave-request system (Pegawai, Pimpinan, KTU) at BMKG PPSDM STMKG.</p>
+      <p><strong>My part:</strong> authentication, home pages, and leave-entitlement logic. Repo: <a href="https://github.com/umarazzam10/PROJECT-KP">umarazzam10/PROJECT-KP</a>.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>KSE Alumni Database</h3>
-      <p><strong>Tech:</strong> React, Express, MySQL</p>
-      <p>Internal alumni data application used by the Karya Salemba Empat scholarship community.</p>
-      <p><strong>Context:</strong> built to support real organizational data management.</p>
+      <h3>KSE Alumni Directory</h3>
+      <p><strong>Tech:</strong> Flask, SQLite, Jinja, Leaflet, Chart.js</p>
+      <p>Alumni directory for the Karya Salemba Empat scholarship community: self-registration with admin review, a claim flow for existing records, a map, and statistics.</p>
+      <p><strong>Live:</strong> <a href="https://database.kseunand.social">database.kseunand.social</a> · <a href="https://github.com/Ilhamnofaldi/alumni-kse-unand">Repo</a></p>
     </td>
   </tr>
   <tr>
